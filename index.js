@@ -77,6 +77,6 @@ function isThereAtLeastOneHealthyKidney(kidneys){
         }
     }
 }
-app.listen(3010 ,()=>{
-    console.log("Server is running on http://localhost:3010")
+app.listen(3010,'0.0.0.0' ,()=>{
+    console.log("Server is running on http://0.0.0.0:3010")
 });
